@@ -1,1 +1,7 @@
-
+str1="this is a string. we are creating a new code."
+str2="this is a string. /n we are creating a new code."
+str3="this is a string. /t we are creating a new code."
+print(str1) #this is a string. we are creating a new code.
+print(str2) #this is a string. 
+              we are creating a new code.
+print(str3) #this is a string.    we are creating a new code.
