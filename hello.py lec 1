@@ -79,3 +79,22 @@ a=2
 b=4.99
 sum=a+b 
 print(sum) #6.99
+
+a=int("2")
+b=4.25
+print(type(a)) #int
+print(a+b) #6.25
+
+name=input("enter your name:") #enter your name:shabnam
+print("well come ",name) #well come shabnam
+
+
+val=input("enter some value:")
+print(type(val),val) #str
+
+int="5"
+val=input("enter some value:")
+print(type(val),val) #int
+
+side=float(input("enter spuare side:"))
+print("area=",side**2) #2**2=4
