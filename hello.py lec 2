@@ -5,3 +5,14 @@ print(str1) #this is a string. we are creating a new code.
 print(str2) #this is a string. 
               we are creating a new code.
 print(str3) #this is a string.    we are creating a new code.
+
+
+str1="appna"
+str2="college"
+print(str1+str2) #appnacollege
+
+str1="appna"
+print(len(str1)) #5
+str2="college"
+final_str=str1+str2 
+print(final_str) #appnacollege
