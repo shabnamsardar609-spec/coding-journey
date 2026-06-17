@@ -16,3 +16,61 @@ print(len(str1)) #5
 str2="college"
 final_str=str1+str2 
 print(final_str) #appnacollege
+
+
+str="appna college"
+ch=str[:12]
+print(ch) #appna college
+print(str[5:len(str)]) #college
+print(str[5:]) #college
+
+str="apple"
+print(str[-5:-1]) #appl
+
+
+str="my name is shabnam"
+print(str.endswith("nam") #True
+print(str.capitalize()) #My name is shabnam
+print(str.replace("a","e")) #my neme is shebnem
+print(str.find("name")) #3
+print(str.count("a")) #3
+
+
+name=input("enter your name:")
+print("length of your name is",len(name)) #enter your name:shabnam  
+                                           7
+
+light="yellow"
+if(light=="red"):
+    print("stop")
+elif(light=="green")
+    print("go")
+else:
+    print("wait")  #wait
+
+num=int(input("enter number:"))
+rem=num%2
+if(rem==0):
+    print("even")
+else:
+    print("odd") #enter number:4
+                  even
+
+a,b,c,d there has 4 number which is gretest?
+a=int(input("enter first number:"))
+b=int(input("enter second number:"))
+c=int(inter("enter third number:"))
+d=int(inter("enter forth number:"))
+
+if(a>=b and a>=c and a>=d):
+    print("first number is greatest")
+elif(b>=c and c>=d):
+    print("second number is greatest")
+elif(c>=d):
+    print("third number is greatest")
+else: 
+    print("forth number is greatest") #enter first number:4
+                                       enter second number:5
+                                       enter third number:3
+                                       enter forth number:6 
+                                       forth number is greatest  
