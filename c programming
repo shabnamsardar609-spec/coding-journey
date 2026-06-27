@@ -1,1 +1,59 @@
+#include <studio.h>
+int main(){
+    printf("hello world");
+    return 0;
+}
 
+#include <studio.h>
+int main(){
+    int a;// variable declaration
+    a=1;// variable initialization
+    printf("%d",a);
+    return 0;
+}
+
+include <studio.h>
+int main(){
+    printf("size of int: %zu dytes\n", sizeof(int));
+    printf("size of float: %zu bytes\n", sizeof(float));
+    printf("size of char: %zu bytes", sizeos(char));
+    return 0;
+}
+
+include <studio.h>
+int main(){
+    int a;
+    char ch = 'a'
+    ch = '\n' //represents a new line
+    printf("hey i am good \n nice");    #hey i am good 
+                                         nice        
+    printf("hey i am good \t nice");    #hey i am good    nice
+    printf("hey i am good \\n nice");   #hey i am good \n nice
+    return 0;
+}
+
+
+#includ <stdio.h>
+int main(){
+    int length = 3;
+    int breadth = 6;
+    printf("the area of the rectangular is %d", length*breadth);
+    return 0;
+}
+#the area of the rectangular is 18
+
+
+#include <stdio.h>
+int main(){
+    //int length = 3
+    //int breadth =6
+    int length, breadth;
+    printf("enter length\n");
+    scanf("%d", &length);
+
+    printf("enter breadth\n");
+    scanf("%d", breadth);
+
+    printf("the area of this rectangular is %d", length*breadth);
+    return 0;
+}
