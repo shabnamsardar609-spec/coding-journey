@@ -12,15 +12,15 @@ int main(){
     return 0;
 }
 
-include <studio.h>
+#include <studio.h>
 int main(){
-    printf("size of int: %zu dytes\n", sizeof(int));
+    printf("size of int: %zu bytes\n", sizeof(int));
     printf("size of float: %zu bytes\n", sizeof(float));
-    printf("size of char: %zu bytes", sizeos(char));
+    printf("size of char: %zu bytes\n", sizeos(char));
     return 0;
 }
 
-include <studio.h>
+#include <studio.h>
 int main(){
     int a;
     char ch = 'a'
@@ -52,8 +52,17 @@ int main(){
     scanf("%d", &length);
 
     printf("enter breadth\n");
-    scanf("%d", breadth);
+    scanf("%d", &breadth);
 
     printf("the area of this rectangular is %d", length*breadth);
+    return 0;
+}
+
+#include <stdio.h>
+int main(){
+    int r = 6;
+    int h = 10;
+    printf("the area of the circle with radious %d is %f\n", r, 3.14*r*r);
+    printf("the area of the cylinder with radious %d and hight %d is %f", r , h, 3.14*r*r*h);
     return 0;
 }
