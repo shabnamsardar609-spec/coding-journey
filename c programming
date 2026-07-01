@@ -112,5 +112,65 @@ int main(){
     int b = 3;
     int c = 4;
     printf("the value of a is %d and value of b is %d and value of c is %d",a,b,c);
+    //modulus operator is used to get the remainder
+    printf("the remainder when a is divided by b is: %d\n", a%b);
+    return 0;
+}
+
+#include <stdio.h>
+int main(){
+    float a = 9.0;
+    int b = 2;
+    float c = a/b;
+    printf("the value of a/b is %f",c);
+    return 0;
+}
+
+#include <stdio.h>
+int main(){
+    int a = 3;
+    int b = 6;
+    int c = 9;
+    printf("the value is %d", a*b/c);
+    printf("the value is %d", 3*b/2*c +7*a);
+    //3*b/2*c +21;
+    //18/2*c +21;
+    //9*c + 21;
+    //81 + 21;
+    //102;
+    return 0;
+}
+    
+#include <stdio.h>
+int main(){ 
+    int n = 45;
+    float m = 32.23;
+    n = (int) m; // convert the data typr to int
+    printf("%d\n", n);
+    return 0;
+}
+#32
+
+#include <stdio.h>
+int main(){
+    // which of the following is invalid in C?
+    int a = 1;
+    int b = a;
+    int v = 3*3;
+    char dt = ' 21 dec 2020'; // worng
+    return 0;
+}
+
+#include <stdio.h>
+int main(){
+    float a = 3.0/8 - 2;
+    printf("the value of a is %f",a);
+    return 0;
+}
+
+#include <stdio.h>
+int main(){
+    int a= 2342354;
+    printf("the value of a%97 is %d", a%97);
     return 0;
 }
