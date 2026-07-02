@@ -192,3 +192,22 @@ int main(){
     return 0;
 }
 
+#include <stdio.h>
+int main(){
+    int a =1; int b=1;
+    printf("the value of a and b is %d\n",a&&b);  //and operators
+    printf("the value of a or b is %d\n",a||b);  //or operators
+    printf("the value of not(a) is %d\n",!a);  //not operators
+    if(a&&b){
+        printf("both are true\n");
+    }
+    //is same as writing....
+    if(a){
+        if(b){ 
+            printf("both are true");
+        }
+    }
+    return 0;
+}
+    return 0;
+}
