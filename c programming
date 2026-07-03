@@ -244,13 +244,34 @@ int main(){
     switch(a){
         case 1:
             printf("you entered 1");
+            break;
         case 2:
             printf("you entered 2");
+            break;
         case 3:
             printf("you entered 3");
+            break;
         case 4:
             printf("you entered 4");
+            break;
+        default:
+            printf("nothing matched");
      }
      return 0;
 }
         
+#include <stdio.h>
+int main(){
+    int marks1,marks2,marks3;
+    //int value_of_harrys_marks;
+    //int value_of_shabnam_marks;
+    //printf("%d", value_of_shabnam_marks);
+    printf("enter marks1: \n");
+    scanf("%d", &marks1);
+    printf("enter marks2: \n");
+    scanf("%d", &marks2);
+    print("enter marks3: \n");
+    scanf("%d", &marks3);
+    printf("the marks are %d %d and %d", marks1,marks2,marks3);
+    return 0;
+}
