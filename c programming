@@ -273,5 +273,37 @@ int main(){
     print("enter marks3: \n");
     scanf("%d", &marks3);
     printf("the marks are %d %d and %d", marks1,marks2,marks3);
+
+    if(marks1<33||marks2<33||marks3<33){
+        printf("you are failed due to less marks in individual subject(s)\n");
+    }
+    else if((marks1+marks2+marks3)/3 <40){
+              printf("you are failed due less percentage\n");
+    }
+    else{
+        printf("you are passed!\n");
+    }
+    return 0;
+}
+
+
+#include <stdio.h>
+int main(){
+    int income, tax = 0;
+    printf("enter income: \n");
+    scanf("%d", &income);
+    if(income<=250000){
+        tax = 0;
+    }
+    else if (income>250000 && income<=500000){
+        tax = 0.05 * (income - 250000);
+    }
+    else if (income>500000 && income<=1000000){
+        tax = 0.05 * (500000 - 250000) + 0.2 * (income - 500000);
+    }
+    else { 
+        tax = 0.05 * (500000 - 250000) + 0.2 * (1000000 - 500000) 0.3 * (income - 1000000);
+    }
+    printf("the total tax you need to pay is %d", tax);
     return 0;
 }
