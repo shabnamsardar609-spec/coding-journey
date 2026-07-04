@@ -338,4 +338,32 @@ int main(){
     }
     return 0;
 }
+
+#include <stdio.h>
+int main(){
+    int a;
+    printf("enter the value of a:");
+    scanf("%d", &a);
+    int b;
+    printf("enter the value of b:");
+    scanf("%d", &b);
+    printf("enter the value of c:");
+    scanf("%d", &c);
+    printf("enter the value of d:");
+    scanf("%d", &d);
+
+    if(a>=b,a>=c,a>=d){
+        printf("a is greater");
+    }
+    else if(b>=c,b>=d);
+        printf("b is greater");
+    }
+    else if(c>=d){
+        printf("c is greater");
+    }
+    else{
+        printf("d is greater");
+    }
+    return 0;
+}
   
